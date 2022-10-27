@@ -1,6 +1,3 @@
-
-
-  "web_scraping_policy": {
     "web_scraping_policies": [
       {
         "allowed_bots": [
