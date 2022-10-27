@@ -1,0 +1,776 @@
+    ],
+    "exempted_ips": [
+      "185.191.171.1",
+      "185.191.171.2",
+      "185.191.171.3",
+      "185.191.171.4",
+      "185.191.171.5",
+      "185.191.171.7",
+      "185.191.171.8",
+      "185.191.171.9",
+      "185.191.171.10",
+      "185.191.171.6",
+      "185.191.171.11",
+      "185.191.171.12",
+      "185.191.171.13",
+      "185.191.171.14",
+      "185.191.171.15",
+      "185.191.171.16",
+      "185.191.171.17",
+      "185.191.171.18",
+      "185.191.171.19",
+      "185.191.171.20",
+      "185.191.171.21",
+      "185.191.171.22",
+      "185.191.171.23",
+      "185.191.171.24",
+      "185.191.171.25",
+      "185.191.171.26",
+      "185.191.171.27",
+      "185.191.171.28",
+      "185.191.171.29",
+      "185.191.171.30",
+      "185.191.171.31",
+      "185.191.171.32",
+      "185.191.171.33",
+      "185.191.171.34",
+      "185.191.171.35",
+      "185.191.171.36",
+      "185.191.171.37",
+      "185.191.171.38",
+      "185.191.171.39",
+      "185.191.171.40",
+      "185.191.171.41",
+      "185.191.171.42",
+      "185.191.171.43",
+      "185.191.171.44",
+      "185.191.171.45",
+      "85.208.98.33",
+      "85.208.98.34",
+      "85.208.98.35",
+      "85.208.98.36",
+      "85.208.98.37",
+      "85.208.98.38",
+      "85.208.98.39",
+      "85.208.98.40",
+      "85.208.98.41",
+      "85.208.98.42",
+      "85.208.98.43",
+      "85.208.98.44",
+      "85.208.98.45",
+      "85.208.98.46",
+      "85.208.98.47",
+      "85.208.98.48",
+      "85.208.98.49",
+      "85.208.98.50",
+      "85.208.98.51",
+      "85.208.98.52",
+      "85.208.98.53",
+      "85.208.98.54",
+      "85.208.98.55",
+      "85.208.98.56",
+      "85.208.98.57",
+      "85.208.98.58",
+      "85.208.98.59",
+      "85.208.98.60",
+      "85.208.98.61",
+      "85.208.98.62"
+    ]
+  },
+  "web_scraping_policy": {
+    "web_scraping_policies": [
+      {
+        "allowed_bots": [
+          {
+            "name": "Applebot",
+            "user_agents": [
+              "Applebot"
+            ],
+            "domains": [
+              "*.apple.com",
+              "apple.com"
+            ],
+            "extended_match": "(Header User-Agent co Applebot)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.apple.com",
+              "apple.com"
+            ]
+          },
+          {
+            "name": "Baidu",
+            "user_agents": [
+              "baiduspider"
+            ],
+            "domains": [
+              "*.baidu.com",
+              "*.baidu.jp"
+            ],
+            "extended_match": "(Header User-Agent co baiduspider)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.baidu.com",
+              "*.baidu.jp"
+            ]
+          },
+          {
+            "name": "Barracuda",
+            "user_agents": [
+              "barracuda"
+            ],
+            "domains": [
+              "34.205.44.115",
+              "34.228.125.58"
+            ],
+            "extended_match": "(Header User-Agent co barracuda)",
+            "identifier": "IP Addresses",
+            "ip_addresses": "34.205.44.115,34.228.125.58",
+            "hosts": []
+          },
+          {
+            "name": "Barracuda_WAAS_AHM",
+            "user_agents": [
+              "\"WAAS AHM\""
+            ],
+            "domains": [
+              "hc.endpoints.waas.cudadps.com"
+            ],
+            "extended_match": "(Header User-Agent co \"WAAS AHM\")",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "hc.endpoints.waas.cudadps.com"
+            ]
+          },
+          {
+            "name": "Bing",
+            "user_agents": [
+              "Bing"
+            ],
+            "domains": [
+              "bat.bing.com"
+            ],
+            "extended_match": "(Header User-Agent co Bing)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "bat.bing.com"
+            ]
+          },
+          {
+            "name": "Clarity",
+            "user_agents": [
+              "clarity"
+            ],
+            "domains": [
+              "www.clarity.ms",
+              "*.clarity.ms"
+            ],
+            "extended_match": "(Header User-Agent co clarity)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "www.clarity.ms",
+              "*.clarity.ms"
+            ]
+          },
+          {
+            "name": "DataForSeoBot",
+            "user_agents": [
+              "DataForSeoBot"
+            ],
+            "domains": [
+              "dataforseo.com",
+              "*.dataforseo.com"
+            ],
+            "extended_match": "(Header User-Agent co DataForSeoBot)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "dataforseo.com",
+              "*.dataforseo.com"
+            ]
+          },
+          {
+            "name": "DoubleClick",
+            "user_agents": [
+              "DoubleClick"
+            ],
+            "domains": [
+              "*.doubleclick.net"
+            ],
+            "extended_match": "(Header User-Agent co DoubleClick)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.doubleclick.net"
+            ]
+          },
+          {
+            "name": "DuckDuckBot",
+            "user_agents": [
+              "DuckDuckBot"
+            ],
+            "domains": [
+              "20.191.45.212",
+              "40.88.21.235",
+              "40.76.173.151",
+              "40.76.163.7",
+              "20.185.79.47",
+              "52.142.26.175",
+              "20.185.79.15",
+              "52.142.24.149",
+              "40.76.162.208",
+              "40.76.163.23",
+              "40.76.162.191",
+              "40.76.162.247"
+            ],
+            "extended_match": "(Header User-Agent co DuckDuckBot)",
+            "identifier": "IP Addresses",
+            "ip_addresses": "20.191.45.212,\n40.88.21.235,\n40.76.173.151,\n40.76.163.7,\n20.185.79.47,\n52.142.26.175,\n20.185.79.15,\n52.142.24.149,\n40.76.162.208,\n40.76.163.23,\n40.76.162.191,\n40.76.162.247",
+            "hosts": []
+          },
+          {
+            "name": "FrontApp",
+            "user_agents": [
+              "Frontapp"
+            ],
+            "domains": [
+              "chat-assets.frontapp.com",
+              "chat.frontapp.com",
+              "*.frontapp.com"
+            ],
+            "extended_match": "(Header User-Agent co Frontapp)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "chat-assets.frontapp.com",
+              "chat.frontapp.com",
+              "*.frontapp.com"
+            ]
+          },
+          {
+            "name": "Google",
+            "user_agents": [
+              "googlebot",
+              "adsbot",
+              "mediapartners-google",
+              "Googlebot-Image"
+            ],
+            "domains": [
+              "*.googlebot.com",
+              "*.google.com",
+              "www.googleadservices.com",
+              "www.googletagmanager.com",
+              "*.googleapis.com",
+              "*.google.com",
+              "*.googletagmanager.com",
+              "*.google-analystics.com",
+              "*.googleadservices.com"
+            ],
+            "extended_match": "(Header User-Agent co googlebot) || (Header User-Agent co adsbot) || (Header User-Agent co mediapartners-google) || (Header User-Agent co Googlebot-Image)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.googlebot.com",
+              "*.google.com",
+              "www.googleadservices.com",
+              "www.googletagmanager.com",
+              "*.googleapis.com",
+              "*.google.com",
+              "*.googletagmanager.com",
+              "*.google-analystics.com",
+              "*.googleadservices.com"
+            ]
+          },
+          {
+            "name": "GoogleAnalytics",
+            "user_agents": [
+              "Googleanalytics"
+            ],
+            "domains": [
+              "ssl.google-analytics.com"
+            ],
+            "extended_match": "(Header User-Agent co Googleanalytics)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "ssl.google-analytics.com"
+            ]
+          },
+          {
+            "name": "Googleads",
+            "user_agents": [
+              "Googleads"
+            ],
+            "domains": [
+              "googleads.g.doublecklick.net"
+            ],
+            "extended_match": "(Header User-Agent co Googleads)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "googleads.g.doublecklick.net"
+            ]
+          },
+          {
+            "name": "Googleapis",
+            "user_agents": [
+              "Googleapis"
+            ],
+            "domains": [
+              "fonts.googleapis.com"
+            ],
+            "extended_match": "(Header User-Agent co Googleapis)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "name": "Gstatic",
+            "user_agents": [
+              "Gstatic"
+            ],
+            "domains": [
+              "fonts.gstatic.com",
+              "*.gstatic.com"
+            ],
+            "extended_match": "(Header User-Agent co Gstatic)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "fonts.gstatic.com",
+              "*.gstatic.com"
+            ]
+          },
+          {
+            "name": "Hawksearch",
+            "user_agents": [
+              "Hawksearch"
+            ],
+            "domains": [
+              "lusearchapi-na.hawksearch.com",
+              "manage.hawksearch.com",
+              "*.hawksearch.com",
+              "*.hawksearch.net"
+            ],
+            "extended_match": "(Header User-Agent co Hawksearch)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "lusearchapi-na.hawksearch.com",
+              "manage.hawksearch.com",
+              "*.hawksearch.com",
+              "*.hawksearch.net"
+            ]
+          },
+          {
+            "name": "Listrak",
+            "user_agents": [
+              "Listrak"
+            ],
+            "domains": [
+              "at1.listrakbi.com",
+              "cdn.listrakbi.com",
+              "s1.listrakbi.com",
+              "*.listrakbi.com",
+              "*.listrak.com",
+              "listrak.com",
+              "142.0.93.65",
+              "52.154.207.104",
+              "52.154.207.105",
+              "52.154.207.106",
+              "52.154.207.107",
+              "52.154.207.108",
+              "52.154.207.109",
+              "52.154.207.110",
+              "52.154.207.111"
+            ],
+            "extended_match": "(Header User-Agent co Listrak)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "at1.listrakbi.com",
+              "cdn.listrakbi.com",
+              "s1.listrakbi.com",
+              "*.listrakbi.com",
+              "*.listrak.com",
+              "listrak.com",
+              "142.0.93.65",
+              "52.154.207.104",
+              "52.154.207.105",
+              "52.154.207.106",
+              "52.154.207.107",
+              "52.154.207.108",
+              "52.154.207.109",
+              "52.154.207.110",
+              "52.154.207.111"
+            ]
+          },
+          {
+            "name": "MajesticBotBacklinkChecker",
+            "user_agents": [
+              "mj12bot",
+              "Mj12bot"
+            ],
+            "domains": [
+              "mj12bot.com",
+              "*.mj12bot.com"
+            ],
+            "extended_match": "(Header User-Agent co mj12bot) || (Header User-Agent co Mj12bot)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "mj12bot.com",
+              "*.mj12bot.com"
+            ]
+          },
+          {
+            "name": "Merit",
+            "user_agents": [
+              "Merit"
+            ],
+            "domains": [
+              "px.meritb2b.com"
+            ],
+            "extended_match": "(Header User-Agent co Merit)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "px.meritb2b.com"
+            ]
+          },
+          {
+            "name": "Microsoft",
+            "user_agents": [
+              "bingbot",
+              "msnbot"
+            ],
+            "domains": [
+              "*.search.msn.com"
+            ],
+            "extended_match": "(Header User-Agent co bingbot) || (Header User-Agent co msnbot)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.search.msn.com"
+            ]
+          },
+          {
+            "name": "Monetate",
+            "user_agents": [
+              "Monetate"
+            ],
+            "domains": [
+              "d.monetate.net",
+              "se.monetate.net"
+            ],
+            "extended_match": "(Header User-Agent co Monetate)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "d.monetate.net",
+              "se.monetate.net"
+            ]
+          },
+          {
+            "name": "Pingdom",
+            "user_agents": [
+              "Pingdom"
+            ],
+            "domains": [
+              "rum-static.pingdom.net",
+              "*.pingdom.net"
+            ],
+            "extended_match": "(Header User-Agent co Pingdom)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "rum-static.pingdom.net",
+              "*.pingdom.net"
+            ]
+          },
+          {
+            "name": "Semrush",
+            "user_agents": [
+              "SemrushBot",
+              "SiteAuditBot"
+            ],
+            "domains": [
+              "*.semrush.com",
+              "185.191.171.1",
+              "185.191.171.2",
+              "185.191.171.3",
+              "185.191.171.4",
+              "185.191.171.5",
+              "185.191.171.6",
+              "185.191.171.7",
+              "185.191.171.11",
+              "185.191.171.12",
+              "185.191.171.13",
+              "185.191.171.14",
+              "185.191.171.15",
+              "185.191.171.16",
+              "185.191.171.17",
+              "185.191.171.18",
+              "185.191.171.19",
+              "185.191.171.20",
+              "185.191.171.21",
+              "185.191.171.22",
+              "185.191.171.23",
+              "185.191.171.24",
+              "185.191.171.25",
+              "185.191.171.8",
+              "185.191.171.9",
+              "185.191.171.10",
+              "185.191.171.26",
+              "185.191.171.33",
+              "185.191.171.34",
+              "185.191.171.35",
+              "185.191.171.36",
+              "185.191.171.37",
+              "185.191.171.38",
+              "185.191.171.39",
+              "185.191.171.40",
+              "185.191.171.41",
+              "185.191.171.42",
+              "185.191.171.43",
+              "185.191.171.44",
+              "185.191.171.45",
+              "85.208.98.33",
+              "85.208.98.34",
+              "85.208.98.35",
+              "85.208.98.36",
+              "85.208.98.37",
+              "85.208.98.38",
+              "85.208.98.39",
+              "85.208.98.40",
+              "85.208.98.41",
+              "85.208.98.42",
+              "85.208.98.43",
+              "85.208.98.44",
+              "85.208.98.45",
+              "85.208.98.46",
+              "85.208.98.49",
+              "85.208.98.50",
+              "85.208.98.51",
+              "85.208.98.52",
+              "85.208.98.53",
+              "85.208.98.54",
+              "85.208.98.55",
+              "85.208.98.56",
+              "85.208.98.57",
+              "85.208.98.58",
+              "85.208.98.59",
+              "85.208.98.60",
+              "85.208.98.61",
+              "85.208.98.62"
+            ],
+            "extended_match": "(Header User-Agent co SemrushBot) || (Header User-Agent co SiteAuditBot)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.semrush.com",
+              "185.191.171.1",
+              "185.191.171.2",
+              "185.191.171.3",
+              "185.191.171.4",
+              "185.191.171.5",
+              "185.191.171.6",
+              "185.191.171.7",
+              "185.191.171.11",
+              "185.191.171.12",
+              "185.191.171.13",
+              "185.191.171.14",
+              "185.191.171.15",
+              "185.191.171.16",
+              "185.191.171.17",
+              "185.191.171.18",
+              "185.191.171.19",
+              "185.191.171.20",
+              "185.191.171.21",
+              "185.191.171.22",
+              "185.191.171.23",
+              "185.191.171.24",
+              "185.191.171.25",
+              "185.191.171.8",
+              "185.191.171.9",
+              "185.191.171.10",
+              "185.191.171.26",
+              "185.191.171.33",
+              "185.191.171.34",
+              "185.191.171.35",
+              "185.191.171.36",
+              "185.191.171.37",
+              "185.191.171.38",
+              "185.191.171.39",
+              "185.191.171.40",
+              "185.191.171.41",
+              "185.191.171.42",
+              "185.191.171.43",
+              "185.191.171.44",
+              "185.191.171.45",
+              "85.208.98.33",
+              "85.208.98.34",
+              "85.208.98.35",
+              "85.208.98.36",
+              "85.208.98.37",
+              "85.208.98.38",
+              "85.208.98.39",
+              "85.208.98.40",
+              "85.208.98.41",
+              "85.208.98.42",
+              "85.208.98.43",
+              "85.208.98.44",
+              "85.208.98.45",
+              "85.208.98.46",
+              "85.208.98.49",
+              "85.208.98.50",
+              "85.208.98.51",
+              "85.208.98.52",
+              "85.208.98.53",
+              "85.208.98.54",
+              "85.208.98.55",
+              "85.208.98.56",
+              "85.208.98.57",
+              "85.208.98.58",
+              "85.208.98.59",
+              "85.208.98.60",
+              "85.208.98.61",
+              "85.208.98.62"
+            ]
+          },
+          {
+            "name": "Twitter",
+            "user_agents": [
+              "twitterbot"
+            ],
+            "domains": [
+              "199.59.148.209",
+              "199.59.148.210",
+              "199.59.148.211",
+              "199.16.156.124",
+              "199.16.156.125",
+              "199.16.156.126"
+            ],
+            "extended_match": "(Header User-Agent co twitterbot)",
+            "identifier": "IP Addresses",
+            "ip_addresses": "199.59.148.209, 199.59.148.210, 199.59.148.211, 199.16.156.124, 199.16.156.125, 199.16.156.126",
+            "hosts": []
+          },
+          {
+            "name": "Yahoo",
+            "user_agents": [
+              "slurp"
+            ],
+            "domains": [
+              "*.yahoo.net"
+            ],
+            "extended_match": "(Header User-Agent co slurp)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.yahoo.net"
+            ]
+          },
+          {
+            "name": "Yandex",
+            "user_agents": [
+              "yandex"
+            ],
+            "domains": [
+              "*.yandex.ru",
+              "*.yandex.net",
+              "*.yandex.com"
+            ],
+            "extended_match": "(Header User-Agent co yandex)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.yandex.ru",
+              "*.yandex.net",
+              "*.yandex.com"
+            ]
+          },
+          {
+            "name": "YouTube",
+            "user_agents": [
+              "YouTube"
+            ],
+            "domains": [
+              "*.youtube.com"
+            ],
+            "extended_match": "(Header User-Agent co YouTube)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "*.youtube.com"
+            ]
+          },
+          {
+            "name": "adsymptotic",
+            "user_agents": [
+              "adsymptotic"
+            ],
+            "domains": [
+              "p.adsymptotic.com"
+            ],
+            "extended_match": "(Header User-Agent co adsymptotic)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "p.adsymptotic.com"
+            ]
+          },
+          {
+            "name": "licdn",
+            "user_agents": [
+              "licdn"
+            ],
+            "domains": [
+              "snap.licdn.com"
+            ],
+            "extended_match": "(Header User-Agent co licdn)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "snap.licdn.com"
+            ]
+          },
+          {
+            "name": "linkedin",
+            "user_agents": [
+              "Linkedin"
+            ],
+            "domains": [
+              "px.ads.linkedin.com",
+              "*.linkedin.com"
+            ],
+            "extended_match": "(Header User-Agent co Linkedin)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "px.ads.linkedin.com",
+              "*.linkedin.com"
+            ]
+          },
+          {
+            "name": "smtrk",
+            "user_agents": [
+              "smtrk.net"
+            ],
+            "domains": [
+              "a.smtrk.net"
+            ],
+            "extended_match": "(Header User-Agent co smtrk.net)",
+            "identifier": "Host",
+            "ip_addresses": "",
+            "hosts": [
+              "a.smtrk.net"
+            ]
+          }
+        ],
